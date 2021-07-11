@@ -3127,17 +3127,18 @@ expo-font@~9.1.0:
   dependencies:
     fontfaceobserver "^2.1.0"
 
-expo-gl-cpp@~10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/expo-gl-cpp/-/expo-gl-cpp-10.1.0.tgz#02c9704c493f36b7c969305949f6037fbab5a94e"
-  integrity sha512-nKAqTvXicHdJumKi/IChZwRWrOw3z2kcl0KjFlTDwuJ/fd7OPPvaK6wrXqhHXAnALmP4rX9fQXmgQQ97hhVpqQ==
+expo-gl-cpp@~10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/expo-gl-cpp/-/expo-gl-cpp-10.4.0.tgz#962e2763a2a1ed60f391e6eaf1767490a674eb87"
+  integrity sha512-WeXgiCCcv4sT21pJ37hZyVzNntrSrmSY0Ig5RFmvq8GwqWP7Lthq3l5SXyDhinoPd2UxQzgMpFiFET4tbO6Nqw==
 
-expo-gl@~10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-10.2.0.tgz#412478033649b5aa5f275d4194365eb41c7ad9e7"
-  integrity sha512-ET5TQoN44BnMT/jjAj8SvsH3483CqZAoDCpEHkrsI+jKyMluVe2BhHfRQR5NwI8GSN+1+/G+di3IPBgulVYTUA==
+expo-gl@^10.4.1:
+  version "10.4.1"
+  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-10.4.1.tgz#85145b489a73c2c73ce145ede3d74adc3b73051d"
+  integrity sha512-LO2Z8YJlpwyrMRU2/iNOWmP/SQ4tGph5nDRnmSdidAuc7UtX4K9pqo6x1MxrmYPg9pCRD4s9jz9M4Xps/6HIFQ==
   dependencies:
-    expo-gl-cpp "~10.1.0"
+    expo-gl-cpp "~10.4.0"
+    expo-modules-core "~0.2.0"
     invariant "^2.2.4"
 
 expo-keep-awake@~9.1.2:
@@ -3145,7 +3146,12 @@ expo-keep-awake@~9.1.2:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-9.1.2.tgz#b3e52c7bef0ade975ae88637a2bf980f6b573368"
   integrity sha512-CCuEOQUNLYtMA0rt0sQ9u5LlIMH7lDJG7dImoorfKMsP95yHXy8dl3oCdtaz2zbsPgggVYeom9gE+gQu+Ki4rQ==
 
-expo-three@^5.4.0:
+expo-modules-core@~0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.2.0.tgz#68e5b6e53d0afbf8d131578831aed657589a2d42"
+  integrity sha512-inpfZ5X/BaTtbj2wG9PA9AC0MN8VyId6KSRlVuEg7+ziurHBy/kKDFxpOddUokhwiln2uhoYPSStJjR/tKypdw==
+
+expo-three@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/expo-three/-/expo-three-5.7.0.tgz#ecbfc0c47222ad742d459847c4a707fe08f36ddc"
   integrity sha512-bxZMeeSN4g68egmuDiSa32p4chUtv1SkBwVGRqInKvT23gXIYbAdWI5wKKWapdyNecDwawbZ0zxXM5uBIpvl5A==
@@ -5873,10 +5879,10 @@ text-encoding@^0.7.0:
   resolved "https://registry.yarnpkg.com/text-encoding/-/text-encoding-0.7.0.tgz#f895e836e45990624086601798ea98e8f36ee643"
   integrity sha512-oJQ3f1hrOnbRLOcwKz0Liq2IcrvDeZRHXhd9RgLrsT+DjWY/nty1Hi7v3dtkaEYbPYe0mUoOfzRrMwfXXwgPUA==
 
-three@^0.108.0:
-  version "0.108.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.108.0.tgz#53d26597c7932f214bb43f4655e566d2058143b5"
-  integrity sha512-d1ysIXwi8qTlbmMwrTxi5pYiiYIflEr0e48krP0LAY8ndS8c6fkLHn6NvRT+o76/Fs9PBLxFViuI62iGVWwwlg==
+three@^0.130.1:
+  version "0.130.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.130.1.tgz#797588b2877ace31603bbbc864eb2e3022f0b3b4"
+  integrity sha512-OSPPKcGvFSiGkG3jFrwwC76PBV/ZSrGxpBbg28bW8s9GU8r/y2spNGtEXHEb/CVqo0Ctf5Lx2rVaxQZB6OasaA==
 
 throat@^4.1.0:
   version "4.1.0"
